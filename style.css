@@ -1,0 +1,553 @@
+*
+{
+    padding:0px;
+    margin: 0px;
+}
+body
+{
+   font-family:sans-serif ; 
+   background-color: #ffffff;
+}
+.top-nav-bar
+{
+    height: 57px;
+    top:5;
+    position: sticky;
+    font-weight: normal;
+    background: #fff;
+    margin-bottom: 20px;
+    border-bottom: 3px solid orange;
+    z-index:2 ;
+
+}
+.logo
+{
+   height: 40px; 
+   margin: 5px 10px;
+}
+.form-control
+{
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid orange !important;
+    border-top-left-radius:20px !important;
+    border-bottom-left-radius:20px !important;
+    border-top-right-radius:0px !important;
+    border-bottom-right-radius:0px !important;
+    box-shadow: none !important;
+    font-size:16px !important;
+    color:#D4D3D3 !important
+}
+.input-group-text
+{
+    background: orange;
+    border:1px solid orange;
+    margin: 8.5px 10px 3px 0;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius:20px !important;
+    border-bottom-right-radius:20px !important;
+     cursor: pointer;
+     
+
+}
+.search-box
+{
+    display: inline-flex;
+    width:60%;
+
+}
+.fa-search
+{
+color:orange;
+}
+.nav-right-menu
+{
+    width: 40%;
+    height: 50px;
+    margin-top:10px;
+    float: right;
+ 
+}
+.nav-right-menu ul
+{
+margin: 0px;
+display: inline-flex;
+float: right;
+
+}
+.nav-right-menu ul li
+{
+list-style: none;
+padding-right:10px;
+text-align: center; 
+cursor: pointer;
+position: sticky;
+padding: 0 12px 0 1px;
+
+   
+  
+}
+.nav-right-menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    margin: 0px 18px 0 8px;
+    
+}
+.nav-li1 ,.nav-li2
+{
+    background-color:#4ACB87 ;
+     border: 1px solid #fff;
+    width: 25%;
+    height: 100%;
+    color: #ffffff;
+    border-radius: 25px;
+    position: relative;
+    padding-left: 5.5;
+    margin-left: 20px;
+}
+.nav-li2
+{
+    background-color:#8b03da ;
+}
+.fa-bars{
+    color: #ffffff;
+    background-color:orange ;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    padding-top: 6px;
+    margin-left: 00px;
+
+}
+
+@media only screen and (max-width: 980px)
+{
+.top-nav-bar
+{
+    height: 118px;
+    border-bottom: 0px;
+}
+.search-box
+{
+    width:100%;
+}
+.nav-right-menu
+{
+    width:100%; 
+}
+.nav-right-menu ul
+{
+    width:100%; 
+    margin: 10px 0;
+}
+.nav-right-menu ul li
+{
+   height: 50px;
+   width: 25%;
+   border-radius:45%;
+}
+}
+/* left Sidebar started*/
+.left-side
+{
+    background-color:#ffffff
+    
+
+}
+.side-left,.fa-chevron-left,.side-right, .fa-chevron-right
+{
+    width: 25px;
+    height:25px;
+    background-color:#ffffff;
+    text-align:center;
+    color:orange;
+    border-radius:25px;
+    box-shadow:1px 1px 10px 1px gainsboro;
+    
+}
+.left-side-header{
+    background-color: #FEE6D6;
+    height: 50px;
+    text-align:center;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-left: 0px; 
+    font-weight: normal;
+    font-size: 20px;
+
+}
+.fa-minus, .fa-plus{
+    float: left;
+    color:orange;
+   padding-right:10px;
+
+}
+.sec-left-side-header
+{
+    font-weight: normal; 
+}
+.left-side-menu-profess
+{
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 40px;
+    padding-left: 30px;
+}
+
+
+/*Ended leftside bar*/
+/* Center Sidebar started*/
+/* Start Section1 Center*/
+.sec1-img
+{
+    text-align:center;
+     display: block;
+
+}
+.sec1-img:hover
+{
+    box-shadow:1px 2px 10px  2px gainsboro;
+    -ms-transform:scale(1.07);
+	-webkit-transform:scale(1.07);
+    transform: scale(1.07);
+    display: block;
+}
+     
+
+
+.top-center-img
+{
+   
+    text-align: center;
+    padding-top:50px;
+}
+.top-center-img h6
+{
+ color: orange;
+ font-size: 25px;
+ font-weight: bold;
+ font-family:sans-serif;
+ 
+}
+.top-center-img .p1
+{
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+}
+.top-center-img .p2
+{
+    color: gray;
+    font-size: 18px;
+}
+.top-center-img button
+{
+background-color: orange;
+color: white;
+border-radius: 25px;
+margin-top:20px;
+font-family: sans-serif;
+margin-bottom: 10px;
+}
+/* End Section1 Center*/
+ /* Start Section2 Center*/
+.sec2-p1
+{
+font-family:  sans-serif;
+font-size: 16px;
+font-weight: bold;
+padding:15px;
+}
+.sec2-p1 .fa-arrow-down
+{
+color: orange;
+cursor: pointer;
+}
+
+.sec2-p2
+{
+color: orange;
+font-size: 14px;
+font-weight: bold;
+font-family: sans-serif;
+font-style: normal;
+vertical-align: top;
+text-decoration: underline;
+float: right;
+left:90%;
+top: 19%;
+position: absolute;
+
+
+
+}
+.sec2-p2:hover
+{
+    color: blue;
+    box-shadow:1px 2px 10px  2px gainsboro;
+    -ms-transform:scale(1.07);
+	-webkit-transform:scale(1.07);
+	transform: scale(1.07);
+}
+
+/* End Section2 Center*/
+  
+/* Start Section3 Center*/
+
+.sec3-img1
+{
+    border:1px solid gainsboro;
+    box-shadow:  2px 2px 10px 1px gainsboro;
+    box-sizing: border-box;
+    text-align: center;
+}
+.sec3-img1:hover
+{
+    box-shadow:1px 2px 10px  2px gainsboro;
+    -ms-transform:scale(1.07);
+	-webkit-transform:scale(1.07);
+	transform: scale(1.07);
+}
+.sec3-img1 .tag
+{
+position: absolute;
+top:10px;
+left: 14px;
+height: 25px;
+}
+.sec3-img1 .product
+{
+padding: 10px;
+width: 150px;
+height: 200px;
+}
+.sec3-con1
+{
+
+margin-top: 8;
+padding: 0;
+
+font-family: sans-serif;
+}
+.sec3-con1 .sec3-p1
+{
+   
+   font-size: 14px; 
+   font-weight: bold;
+   color: black;
+   text-align: center;
+   
+}
+.sec3-con1 .sec3-p2
+{
+   color: red;
+   font-weight: normal; 
+   font-size: 15px;
+   text-align: center;
+
+}
+.sec3-con1 .sec3-p3
+{
+    font-size: 12px;
+    font-weight: bold;
+    color:gray;
+    margin-left: 30px;
+    padding-top: 10px;
+    text-align: left;
+    
+}
+.Starlist ul
+{
+text-decoration: none;
+margin:0px;
+padding:0px;
+align-items:right;
+margin-left: 35px;
+}
+.Starlist ul li
+{
+list-style: none;
+float: left;
+position: relative;
+}
+.twobutton
+{
+
+padding: 0;
+
+}
+.twobutton .button1
+{
+    background-color: white;
+    border: 1px solid #797171;
+    color: #797171;
+    border-radius: 25px;
+    font-size:12px;
+    margin-left: 10;
+}
+.twobutton .button2
+{
+background-color: orange;
+color: white;
+border-radius: 25px;
+font-size:12px;
+
+}
+
+/* Start Section3 Center*/
+
+/* Center Sidebar Ended*/
+/*right sidebar start*/
+.right-side-bar
+{
+    padding-top: 20px;
+}
+.right-img
+{
+background-color: yello;
+padding-top: 20px;
+}
+.right-img .rightimg
+{
+    width:35px;
+}
+.right-content
+{
+background-color: a;
+margin-left: 15px;
+line-height:20px ;
+
+
+}
+.right-content h6
+{
+font-size: 15px;
+font-family: sans-serif;
+
+}
+.right-content p{
+    font-size: 14px;
+    color: gray;
+    
+}
+.offer-img-content{
+    width: 200px;
+    height: 300px;
+}
+.offer-img  img
+{
+    width: 200px;
+
+}
+.offer-img-content
+{
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    box-shadow: 1px 2px 10px 2px rgb(112, 98, 98);
+margin-top: 60px;
+margin-bottom: 15px;
+    
+}
+.offer-img-content h6
+{text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-top: 5px;
+    color: black;
+
+}
+.offer-img-content p
+{text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color:gray;
+
+}
+.offer-img-content span
+{
+    font-size: 14px;
+    color: orange;
+    padding-left: 30px;
+    
+}
+.offer-img-content span::before
+{
+    content:'';
+    position:absolute;
+
+    color: red;
+    height: 0.175em;
+    bottom: 0;
+}
+
+
+/*right sidebar End*/
+/*footer start*/
+.panel-footer
+{
+    background-color: #D4D3D3;
+}
+.p-footer
+{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-left: 10px ;
+    line-height: 25px;
+}
+.google-appstore-img
+{
+    float:left;
+  
+}
+.logo1, .logo2
+{
+    padding-right:15px;
+}
+.social-media
+{
+    float: left;
+}
+.social
+{
+    
+    padding:10px;
+    margin-top:10px;
+
+}
+.Pro-footer
+{
+    margin-top:25px ;
+    float:left;
+}
+.pro{
+    font-size: 16px;
+    line-height:25px;
+    font-weight: bold;
+}
+.footer-ul{
+    text-decoration: none;
+    font-size:15px ;
+    font-weight: normal;
+    
+}
+.footer-ul li
+{
+  list-style: none;
+  padding-top: 10px;
+}
+.text-center
+{
+    background-color:#D4D3D3;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
